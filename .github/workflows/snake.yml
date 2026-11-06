@@ -1,4 +1,5 @@
 on:
+  workflow_dispatch:
   schedule:
     # 日本時間の毎朝 10:00
     - cron: '0 1 * * *'
